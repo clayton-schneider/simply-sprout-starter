@@ -16,5 +16,6 @@
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  // studio will have its own tsconfig. Don't let errors from studio prevent build
+  "exclude": ["node_modules", "studio"]
 }
