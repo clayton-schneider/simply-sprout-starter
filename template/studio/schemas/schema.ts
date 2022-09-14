@@ -5,7 +5,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // Import Singles
-import homepage from "./singles/homepage";
+// import homepage from "./singles/homepage";
 
 // Import Sections
 import hero from "./sections/hero";
@@ -21,7 +21,6 @@ export default createSchema({
     /* Your types here! */
 
     // Add single schemas
-    homepage,
 
     // Add sections to studio
     hero,
