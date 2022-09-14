@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "simply-sprout-starter"
+    "name": "<#< sanity.projectTitle >#>"
   },
   "api": {
-    "projectId": "xea8ehp4",
-    "dataset": "production"
+    "projectId": "<#< sanity.projectId >#>",
+    "dataset": "<#< sanity.dataset >#>"
   },
   "plugins": [
     "@sanity/base",
@@ -15,9 +15,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
