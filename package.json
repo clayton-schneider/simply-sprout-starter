@@ -1,0 +1,9 @@
+{
+  "name": "nextjs-tailwind-sanity-starter",
+  "scripts": {
+    "dev": "sanity-template watch --template-values template-values-production.json"
+  },
+  "devDependencies": {
+    "sanity-template": "^2.4.3"
+  }
+}
